@@ -95,7 +95,9 @@ loadImages((images) => {
   document.getElementById("punch").onclick = () => {
     quedAnimation.push("punch");
   };
-
+document.getElementById("block").onclick = () => {
+    quedAnimation.push("block");
+  };
   document.addEventListener("keyup", (event) => {
     const key = event.key;
 
